@@ -6,6 +6,9 @@ Since the NBA doesn’t provide 2-point shooting splits directly, this script ma
 ---
 
 ## Example
+Here is the statline of **Nikola Jokić**'s performance in **Game 7** of the **2025 Western Conference Semifinals** (from *[ESPN](https://www.espn.com/nba/boxscore/_/gameId/401769992)*) with the necessary information for the script highlighted.
+
+<img width="1004" height="256" alt="Screenshot 2025-09-05 131844" src="https://github.com/user-attachments/assets/028f38c7-4d54-438c-8dc2-84469444da7a" />
 
 ```bash
 # OUTPUT
