@@ -7,15 +7,25 @@ Since the NBA doesn’t provide 2-point shooting splits directly, this script ma
 
 ## Example
 
-```python
-from twofg import calculate_two_point_stats
+```bash
+# OUTPUT
+PS C:\Users\Me\2FG> python main.py
+Choose mode:
+1. Manual entry
+2. Import spreadsheet
+Enter 1 or 2: 1
+Enter player name: Nikola Jokic
+Enter total FGM: 5
+Enter total FGA: 9
+Enter 3PM: 1
+Enter 3PA: 2
 
-# Example: Player goes 10/20 FG, 3/8 from 3
-fgm, fga = 10, 20
-three_pm, three_pa = 3, 8
-
-stats = calculate_two_point_stats(fgm, fga, three_pm, three_pa)
-print(stats)
+--- 2PT Stats ---
+Player: Nikola Jokic
+2FGM: 4
+2FGA: 7
+2PT%: 57.14%
+PS C:\Users\Me\2FG> 
 ```
 
 ## Installation
@@ -24,14 +34,17 @@ print(stats)
 git clone https://github.com/swagswagstar/2FG.git
 cd 2FG
 ```
-2. Run with Python (3.9 and above)
+2. Install `pandas`, `openpyxl` and `xlrd`
+```bash
+pip install pandas openpyxl xlrd
+```
+3. Run with Python (3.9 and above)
 ```bash
 python main.py
 ```
 
 ---
 ## Roadmap
-- Support multiple players from JSON/CSV box scores
 - Connect to NBA Stats API for automatic data collection
 - Add shot chart visualization (heatmaps, zones)
 - Deploy as a web app (Flask + React)
