@@ -37,7 +37,7 @@ PS C:\Users\Me\2FG>
 git clone https://github.com/swagswagstar/2FG.git
 cd 2FG
 ```
-2. Install `pandas`, `openpyxl` and `xlrd`
+2. Install the `pandas`, `openpyxl` and `xlrd` dependencies
 ```bash
 pip install pandas openpyxl xlrd
 ```
