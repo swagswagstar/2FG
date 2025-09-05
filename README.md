@@ -31,6 +31,19 @@ Player: Nikola Jokic
 PS C:\Users\Me\2FG> 
 ```
 
+With the example `.xlsx` spreadsheet from the same game (full Nuggets starting 5 box score)
+```
+C:\Users\swag\Documents\GitHub\2FG>python main.py
+Choose mode:
+1. Manual entry
+2. Import spreadsheet
+Enter 1 or 2: 2
+Enter spreadsheet path: C:\Users\Me\Documents\DEN_WSF7_2025.xlsx
+✅ Saved results to 2pt_leaderboard.csv
+
+C:\Users\swag\Documents\GitHub\2FG>
+```
+
 ## Installation
 1. Clone the repo
 ```bash
